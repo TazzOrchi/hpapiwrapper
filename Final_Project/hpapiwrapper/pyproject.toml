@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hpapiwrapper"
+version = "0.1.0"
+description = "A Wrapper for the houseplant API hosted on RapidAPI"
+authors = ["Tasnuva Orchi"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.3.4"
+seaborn = "^0.11.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+myst-nb = "^0.17.1"
+sphinx-autoapi = "^2.0.0"
+sphinx-rtd-theme = "^1.1.1"
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

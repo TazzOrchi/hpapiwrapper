@@ -4,7 +4,7 @@ A Wrapper for the [House Plants API](https://rapidapi.com/mnai01/api/house-plant
 
 ## Introduction 
 
-This package provides a client for the House Plants API. Iw works with Python versions from 3.9+. 
+This package provides a client for the House Plants API. It works with Python versions from 3.9+. 
 
 The House Plants API provides users with access to data from over 300+ house plants along with some helpful information. 
 ***New Routes for the API to include additional GET options are in the works by the creator*** 
